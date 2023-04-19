@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all"> <header class="header">
+        <a class="logo" href="index.html">
+            <img src="img/logo.svg" alt="Логотип">
+        </a>
+       <nav class = "navigation" >
+        <ul class="menu">
+            <li class="menu_list"><a class="menu_link menu_link_active" href="index.html">Главная</a></li>
+            <li class="menu_list"><a class="menu_link" href="students.html">Студенты</a></li>
+            <li class="menu_list"><a class="menu_link" href="about.html">О курсе</a></li>
+            <li class="menu_list"><a class="menu_link" href="contacts.html">Контакты</a></li>
+        </ul>
+        <button class="button" type="submit">Войти</button>
+       </nav>
+                
+        <button class="burger-button"></button>
+  </header>
+        
+        <main class="content"> <h1 class="title"> Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
+            <img  class="image" src="img/contentphoto.jpg" alt="главное фото">
+            <div class="content_info">
+                <div class="content_section">
+                  <div class="content_article">
+                    <h3 class="subtitle">Для кого этот курс</h3>
+                    <p class="about_text">Этот курс рассчитан на новичков, которые только начинают знакомство с веб-разработкой. В начале курса вы узнаете о том, как устроен Интернет и веб-сайты. 
+                        Для обучения необходимо только владеть компьютерной грамотностью (пользоваться браузером, создавать папки и файлы, устанавливать программы).</p>
+                </div>
+            <div class="content_section">
+                         <div class="content_article">
+                    <h3 class="subtitle">Чему вы научитесь</h3>
+                    <p class="about_text">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с нуля. Изучите основы языков <span class="text_bold">HTML, CSS</span>  и немного <span class="text_bold">JavaScript</span>. Мы вместе сверстаем сайт нашей группы по этому макету. А затем вы <span class="text_orang">сами</span>  сверстаете свои личные странички в качестве домашнего задания и мы выложим все это на сервер.</p>
+                </div>
+             </div>
+            </div>
+        <div class="quotation-marks">
+            <blockquote class="heading">
+               <span class="quotation-marks quotation-marks_left">“</span> Учимся 
+                 вместе!  <span class="quotation-marks quotation-marks_right">”</span> </blockquote>
+        </div>  
+        </div>
+        </main></div>
+    
+    <footer class="footer">
+        <p >2023 &copy; <a class="footer_text" href="#">учебный центр</a></p>
+    </footer>
+
+    <div class="modal_overlay">
+        <form class="modal_form">
+            <h3 class="modal_title">Войти на сайт</h3>
+            <input class="input_modal" placeholder="Логин" type="text">
+            <input class="input_modal" placeholder="Пароль" type="password">
+            <button class="button">Войти</button>
+            <button class="close-button"></button>
+        </form>  
+    </div>
+ 
+<script src="./script.js"></script>
+</body>
+</html>
